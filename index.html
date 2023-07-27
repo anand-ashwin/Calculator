@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+
+        <div class="navLeft">
+            <img src="./images/calculatorLogo.png" alt="">
+            <h3>Calculator</h3>
+        </div>
+
+
+        <div class="navRight">
+            <div id="toggleBtn">
+                <div id="innerToggleBtn"></div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="outer">
+            <div class="display">
+                <input type="text" placeholder="0" class="screen">
+            </div>
+            <div class="btns">
+                <div id="calculatorButtons" class="c operatorBg">C</div>
+
+                <div id="calculatorButtons" class="modulo operatorBg">%</div>
+
+                <div id="calculatorButtons" class="back operatorBg">
+                    <span class="material-icons">
+                        backspace
+                    </span>
+                </div>
+
+                <div id="calculatorButtons" class="divide operatorBg">/</div>
+
+                <div id="calculatorButtons" class="seven numberbG">7</div>
+                <div id="calculatorButtons" class="eight numberbG">8</div>
+                <div id="calculatorButtons" class="nine numberbG">9</div>
+                <div id="calculatorButtons" class="multiply operatorBg">*</i></div>
+                <div id="calculatorButtons" class="four numberbG">4</div>
+                <div id="calculatorButtons" class="five numberbG">5</div>
+                <div id="calculatorButtons" class="six numberbG">6</div>
+                <div id="calculatorButtons" class="minus operatorBg">-</div>
+                <div id="calculatorButtons" class="one numberbG">1</div>
+                <div id="calculatorButtons" class="two numberbG">2</div>
+                <div id="calculatorButtons" class="three numberbG">3</div>
+                <div id="calculatorButtons" class="plus operatorBg">+</div>
+                <div id="calculatorButtons" class="doubleZero numberbG">00</div>
+                <div id="calculatorButtons" class="zero numberbG">0</div>
+                <div id="calculatorButtons" class="dot numberbG">.</div>
+                <div id="calculatorButtons" class="equal equalBg">=</div>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
